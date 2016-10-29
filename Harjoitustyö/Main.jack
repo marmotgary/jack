@@ -1,0 +1,12 @@
+
+/**
+ * The Main class initializes a new program and starts it.
+ */
+class Main {
+
+	function void main() {
+
+		do Screen.drawLine(100,20,240,20);
+		return;
+	}
+}

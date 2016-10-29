@@ -1,0 +1,45 @@
+
+/** Test program for the OS Math class. */
+class Main {
+
+    function void main() {
+
+        do Output.printString("2*3: ");
+        do Output.printInt( 2 * 3 );                  // 6
+        do Output.println();
+
+        do Output.printString("9/3: ");
+        do Output.printInt( 9 / 3 );                  // 3
+        do Output.println();
+
+        do Output.printString("-18000/6: ");
+        do Output.printInt( (-18000) / 6);           // -3000
+        do Output.println();
+        
+        do Output.printString("sqrt(9): ");
+        do Output.printInt( Math.sqrt(9) );           // 3
+        do Output.println();
+
+        do Output.printString("sqrt(32767): ");
+        do Output.printInt( Math.sqrt(32767) );       // 181
+        do Output.println();
+
+        do Output.printString("min(345, 123): ");
+        do Output.printInt( Math.min(345, 123) );    // 123
+        do Output.println();
+
+        do Output.printString("max(123, -345): ");
+        do Output.printInt( Math.max(123, -345) );   // 123
+        do Output.println();
+
+        do Output.printString("abs(27): ");
+        do Output.printInt( Math.abs(27) );          // 27
+        do Output.println();
+
+        do Output.printString("abs(-32767): ");
+        do Output.printInt( Math.abs(-32767) );      // 32767
+        do Output.println();
+        
+        return;
+    }
+}
